@@ -1,0 +1,186 @@
+.navbar {
+  background-color: #5a4531;
+}
+.body {
+  background-image: url("../Img/dog\ 1\ \(1\).png");
+  width: 100%;
+  height: 100vh;
+  .Text {
+    font-style: 24px;
+    width: 400px;
+  }
+  .Title {
+    color: #5a4531;
+    font-size: 96px;
+    align-items: right;
+  }
+}
+.main {
+  .This {
+    font-size: 50px;
+    width: 800px;
+    color: #5a4531;
+    text-align: center;
+    margin-left: 230px;
+  }
+  .text {
+    font-size: 24px;
+    text-align: center;
+    width: 500px;
+    margin-left: 400px;
+  }
+  .menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 130px;
+    p {
+      width: 500px;
+    }
+  }
+}
+.last {
+  background-image: url("../Img/pexels-jozef-fehér-2774140\ 1\ \(1\).png");
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  h1 {
+    font-size: 60px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    margin-left: 500px;
+  }
+  img {
+    margin-left: 650px;
+    margin-top: 110px;
+  }
+  p {
+    font-size: 24px;
+    width: 600px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 100px;
+    color: white;
+  }
+}
+.lastbar {
+  width: 100%;
+  height: 20vh;
+  background-color: #5a4531;
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img {
+    display: flex;
+    color: white;
+    align-items: center;
+  }
+  img {
+    width: 130px;
+  }
+  .mail {
+    margin-top: 100px;
+    color: white;
+  }
+}
+.btn {
+  margin-left: 580px;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-left: 200px;
+  }
+  .body {
+    background-image: none;
+    background: linear-gradient(
+      1.31deg,
+      #352516 -5.64%,
+      rgba(90, 69, 49, 0) 52.26%
+    );
+    background-blend-mode: overlay;
+    .logo {
+      margin-left: 150px;
+    }
+    .Title {
+      color: #5a4531;
+      font-size: 77px;
+      text-align: center;
+    }
+    .Text {
+      font-style: 24px;
+      width: 300px;
+      text-align: center;
+      margin-left: 100px;
+    }
+  }
+  .main {
+    .This {
+      font-size: 50px;
+      width: 400px;
+      color: #5a4531;
+      text-align: center;
+      margin-left: 50px;
+    }
+    .text {
+      font-size: 24px;
+      text-align: center;
+      width: 400px;
+      margin-left: 50px;
+    }
+    .menu {
+      display: block;
+      gap: 50px;
+      margin-left: 30px;
+      p {
+        width: 445px;
+      }
+    }
+  }
+  .last {
+    background-image: url("../Img/pexels-jozef-fehér-2774140\ 1\ \(1\).png");
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    h1 {
+      font-size: 53px;
+      width: 500px;
+      text-align: center;
+      color: white;
+      margin-left: 50px;
+    }
+    img {
+      margin-left: 200px;
+      margin-top: 100px;
+    }
+    p {
+      font-size: 24px;
+      width: 396px;
+      text-align: center;
+      margin-left: 70px;
+      margin-top: 100px;
+      color: white;
+    }
+  }
+  .lastbar {
+    width: 100%;
+    height: 40vh;
+    background-color: #5a4531;
+    text-align: center;
+    .list {
+      display: block;
+    }
+    .img {
+      display: block;
+      color: white;
+    }
+    img {
+      width: 130px;
+    }
+    .mail {
+      margin-top: 10px;
+      color: white;
+    }
+  }
+}
